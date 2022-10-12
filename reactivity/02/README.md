@@ -1,0 +1,5 @@
+增加了effectStack 实现effect的嵌套执行
+
+增加了effectFn.deps，用来存储所有与该副作用函数相关联的依赖集合
+
+增加了cleanup 方法，移除当前副作用函数关联的依赖
